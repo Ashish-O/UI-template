@@ -5,6 +5,7 @@ import Services from './Services';
 import './App.css';
 import ScrollArrow from './ScrollArrow';
 import Ice from "./Ice"
+import DataTable from './DataTable'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Hero />
       <Services />
       <ScrollArrow /> */}
-      <Ice />
+      {/* <Ice /> */}
+      <DataTable />
     </div>
   );
 }

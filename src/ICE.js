@@ -5,6 +5,7 @@ import './Ice.css'; // Import your CSS file
 
 function Ice() {
   return (
+    <>
     <div className="scrollable-table">
       <table>
         <thead>
@@ -25,6 +26,7 @@ function Ice() {
         </tbody>
       </table>
     </div>
+    </>
   );
 }
 
