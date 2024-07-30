@@ -1,0 +1,20 @@
+/* ScrollableTable.css */
+
+.scrollable-table {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th,
+  tbody td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Additional styling can be added to match your design */
+  
