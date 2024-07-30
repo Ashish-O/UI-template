@@ -1,0 +1,28 @@
+.services {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .service-columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service {
+    max-width: 300px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
