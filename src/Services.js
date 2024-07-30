@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 
-function Services() {
+const Services =() => {
   return (
     <section className="services">
       <h2>Our Services</h2>
@@ -14,13 +14,10 @@ function Services() {
           <h3>TRMF</h3>
           <p>Reviewing TRMF question, one step ahead to more resilient services.</p>
         </div>
-        {/* <div className="service">
-          <h3>Architecture</h3>
-          <p>Innovative architectural solutions.</p>
-        </div> */}
       </div>
     </section>
   );
-}
+};
 
 export default Services;
+
