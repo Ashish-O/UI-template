@@ -6,16 +6,18 @@ import './App.css';
 import ScrollArrow from './ScrollArrow';
 import Ice from "./Ice"
 import DataTable from './DataTable'
+import ModalNew from './ModalNew'
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       {/* <Hero />
       <Services />
       <ScrollArrow /> */}
       {/* <Ice /> */}
-      <DataTable />
+      {/* <DataTable />*/}
+      <ModalNew />
     </div>
   );
 }
